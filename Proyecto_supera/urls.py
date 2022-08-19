@@ -15,7 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-
+from Proyecto_supera.views import inicio,probandoTemplate,probandoTemplate_loader
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('Inicio/', inicio), # Muesta un mensaje de inicio (Se puede borrar)
+    path('Template/', probandoTemplate),# Es solo de prueba para cargar un template (Se puede borrar)
+    path('Template2/', probandoTemplate_loader), # Es solo de prueba para cargar un loader con un Template (Se puede borrar)
 ]

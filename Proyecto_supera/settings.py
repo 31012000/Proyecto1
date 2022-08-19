@@ -54,7 +54,7 @@ ROOT_URLCONF = 'Proyecto_supera.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['C:/Users/valen/OneDrive/Desktop/ProyectoFinal/Proyecto1/Proyecto_supera/plantillas'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
